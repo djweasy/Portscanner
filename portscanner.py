@@ -3,7 +3,7 @@ import subprocess
 import sys
 from datetime import date, datetime
 
-target = "192.168.178.23"
+target = "<IP>"
 targetIP = socket.gethostbyname(target)
 tstart = datetime.now()
 
